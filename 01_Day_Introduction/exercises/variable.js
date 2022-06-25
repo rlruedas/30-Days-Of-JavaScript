@@ -1,9 +1,9 @@
 //Declaration of Variables
 
-let name = "Reister Ruedas";
-let boolean = false;
-let undf = undefined;
-let empty = null;
+let _name = "Reister Ruedas";
+let _boolean = false;
+let _undf = undefined;
+let _empty = null;
 
 //Declare 4 variables without assigning values
 let firstVariable, secondVariable, thirdVariable, fourthVariable;
@@ -19,8 +19,9 @@ let _country = 'PH';
 let _age = 23;
 
 // Declare variables with name, status, country and age in single line
-let fname = 'Reister', lname = 'Ruedas', status = 'Single', country = 'PH', age = 23;
+let Fname = 'Reister', Lname = 'Ruedas', Status = 'Single', Country = 'PH', Age = 23;
 
 let myAge = 23, yourAge = 22;
 
-console.log(myAge," ",yourAge);
+console.log(`I am ${myAge} years old`);
+console.log(`You are ${yourAge} years old`);
